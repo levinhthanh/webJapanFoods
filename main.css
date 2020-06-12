@@ -1,0 +1,44 @@
+.main {
+    height: auto;
+    width: 100%;
+    background-color: khaki;
+}
+
+.showProducts {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.product {
+    width: 60%;
+    text-align: center;
+    border: green solid 0.2rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+.product:hover{
+    transform: scale(1.4);
+}
+.image{
+    width: 9rem;
+    height: 9rem;
+    margin-left: 2rem;
+}
+#image{
+    width: 9rem;
+    height: 9rem;
+}
+
+#name {
+    font-weight: bold;
+    color: darkorange;
+    font-size: 1rem;
+}
+
+#price {
+    font-weight: bold;
+    color: blue;
+    font-size:0.6rem;
+}

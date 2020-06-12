@@ -1,0 +1,76 @@
+.search{
+    width: 100%;
+    height: 4.5rem ;
+}
+#logo{
+    width: 3.5rem;
+    height: 3rem;
+    margin-left: 10rem;
+    margin-top: 0.7rem;
+}
+#logo:hover, #btn:hover, #show:hover{
+    cursor: pointer;
+}
+.searchProduct{
+    width: 30rem;
+    height: 2.2rem;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    border: solid 0.1rem green;
+    position: relative;
+}
+#show{
+    width:3.5rem;
+    margin-top: 0.6rem;
+    margin-left: 0.5rem;
+}
+#inputProduct{
+    width: 23rem;
+    height: 2rem;
+    margin-top: 0.1rem;
+    padding-left: 0.9rem;
+    border-left: solid 1px grey;
+}
+input:focus{
+    outline: none;
+}
+#btn-cover{
+    position: relative;
+    width: 2rem;
+height: 2rem;
+margin-top: 0.5rem;
+margin-right: 0.1rem;
+}
+#btnImg{
+    width: 70%;
+    height: 70%;
+}
+#btn{
+    position: absolute;
+    top:  0;
+    left: 0;
+width: 2rem;
+height: 2rem;
+background: none;
+}
+.others{
+    margin-left: 10rem;
+    margin-top: 0.7rem;
+}
+#login{
+    margin-left: 1.8rem;
+    margin-bottom: 0.7rem;
+    color: green;
+}
+.gioHang{
+    margin-left: 2rem;
+}
+#box{
+    margin-left: 1rem;
+    margin-bottom: 0.7rem;
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
